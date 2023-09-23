@@ -1,0 +1,195 @@
+@font-face{
+    font-family: 'Roboto!';
+    src: local('Roboto');
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+@font-face{
+    font-family: 'Philosopher';
+    src: local('Philosopher');
+    src: url(../fonts/Philosopher-Regular.ttf);
+}
+
+*{
+    box-sizing: border-box; /* для выравнивания для учитывания paddingтонов */
+}
+
+html{
+    font-family: 'Roboto!';
+    font-weight: 700;
+}
+
+body{
+    background-color: #ffe2b0;
+}
+header{
+    text-align: center;
+    margin-bottom: 20px;
+}
+nav{
+    margin-bottom: 20px;
+}
+ul{
+    list-style: none; /* // убрать точки */
+    text-align: center; /* выровнять ссылки по центру */
+    padding: 0px; /* убираем отступ слева */
+}
+li{
+    display: inline;
+    margin-right: 100px;
+    
+}
+a{
+    color: black; /* сделать ссылки черного цвета */
+    text-decoration: none;/*  убрать подчеркивание */
+    font-size: 18px;
+    text-align: center;
+    
+}
+li:last-child{
+    margin-right: 0px; /* убираем отступ у последнего элемента справа */
+}
+.section-about{
+    height:  640px; /* выбираем высоту */
+    background-image: url(../imgs/imageB.jpg); /* вставляем картинку фона  */
+    background-position: center; /* выравниваем её по центру */
+    background-size: cover; 
+    position: relative;
+    margin-bottom: 20px; /* для отступа с низу между сексиями */
+    
+   
+
+}
+.section-about__block{
+    width: 420px; 
+    height: 190px;
+    background: linear-gradient(180deg, rgba(244,213,178,0.8) 0%, rgba(234,156,65,0.8) 100%);
+    position: absolute;
+    left: 50%;
+    top: 54%;
+    padding-top: 15px;
+   
+
+} 
+.section-about_border{ /* делаем рамку с текстом */
+    width: 390px;
+    height: 160px;
+    border: 1px solid black;
+    margin: 0 auto;
+    padding: 17px 0 0 28px;
+    text-align: left;
+
+} 
+.section-about__title{
+    
+    font-size: 36px;
+    margin: 0;
+    margin-bottom: 9px;
+    font-family: 'Philosopher';
+   
+    
+}
+.section-about__text{
+    font-size: 12px;
+    margin: 0;
+}
+.section-description__icon-box{
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+/* 
+Селекторы класса
+
+*{
+
+}
+#logo{ один на странице
+    height: 500px;
+}- уникальный идентификатор
+
+*/
+.section-description{
+    margin-bottom: 20px;
+}
+
+.section-description__icon-box img{
+    margin-right: 76px ;
+}
+.section-description__icon-box img:last-child{ /* обращение к последнему элементу секции */
+    margin-right: 0px; /* убираем отступ у последнего элемента справа */
+}
+.section-description__title{
+    font-size: 96px;
+    margin: 0px;
+    text-align: center;
+    font-family: 'Philosopher';
+}
+
+
+.red{ /* делаем красным слово это в заголовке */
+    color: #F15B40;
+}
+
+.section-description__text{ /* украшаем текст после заголовка выпечка это вкусно */
+    font-size: 18px;
+    margin: 0px;
+    text-align: center ;
+    width: 1000px; /* выставляем ширину блока */
+    margin: 0 auto; 
+}
+.section-map{
+    margin-bottom: 20px;
+}
+.section-map__title{
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Philosopher';
+   
+}
+iframe{
+    display: block;
+    margin: 0 auto;
+   
+}
+.line{
+    border-top: 1px solid #999999;
+    width: 1024px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    
+}
+/* .line{
+    height: 1px;
+    background-color: #999999;
+    width: 1024px;
+    margin: 0 auto;
+    второй вариант для линии
+} */
+/* hr{
+    border: none;
+    border-top: 1px solid #999999;
+    width: 1024px;
+    margin: 0 auto;
+    вариант с линией с помощью тега hr
+} */
+
+footer{
+    height: 80px;
+}
+/* h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+} */
+/* h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+} */
+/* h1{
+    font-family: 'Roboto!';
+} */
+html{
+    font-family: 'Roboto!';
+    font-weight: 700;
+}
